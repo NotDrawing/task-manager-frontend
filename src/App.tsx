@@ -1,3 +1,4 @@
+import { AppFooter } from "./components/AppFooter";
 import { AppHeader } from "./components/AppHeader";
 import { TaskFilters } from "./components/TaskFilter";
 import { TaskForm } from "./components/TaskForm";
@@ -16,11 +17,7 @@ export default function App() {
         <TaskList />
       </main>
 
-      <footer className="app-footer">
-        <div className="app-footer__content">
-          <p>Administrador de tareas - Frontend EC2</p>
-        </div>
-      </footer>
+      <AppFooter courseName="Diseño Frontend con Frameworks" />
     </div>
   );
 }
